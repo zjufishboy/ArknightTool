@@ -1,0 +1,26 @@
+.RecruitOutSide{
+    width:100%;
+    height:calc(100vh - 45px);
+    background: url(https://ak.hypergryph.com/assets/index/images/ak/sp/bk.jpg);
+    background-size:100% 100%;
+    background-position: center center;
+    padding-top:20px;
+    color:#fff;
+    font-weight: bold;
+}
+.RecruitOutSide .ant-checkbox-wrapper{
+    color:#fff;
+    font-weight: normal;
+}
+.SelectItem{
+    width:100%;
+    min-height:20px;
+    padding-left: 10px;
+}
+.SelectName{
+    width:40px;
+}
+.SelectContent{
+    width:calc(100% - 50px);
+    flex-wrap: wrap;
+}

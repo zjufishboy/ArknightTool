@@ -1,0 +1,38 @@
+.NavBarOutSide{
+    width:100%;
+    height:45px;
+    
+    position:fixed;
+    top:0;
+    left:0;
+    
+    background: #5ba7d6;
+
+    color: #ffffff;
+
+    font-weight: bold;
+    font-size:25px;
+}
+.NavBarIcon{
+    width:20%;
+    height:100%;
+}
+.NavBarBlock{
+    width:100%;
+    height:45px;
+}
+.ItemsNav{
+    width:100%;
+    margin-top: -24px;
+}
+.ItemNav{
+    width:150px;
+    min-height: 40px;
+}
+.ItemNav a{
+    color:#222;
+    font-size:20px;
+    font-weight: normal;
+
+    width:100%;
+}
