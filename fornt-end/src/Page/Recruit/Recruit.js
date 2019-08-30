@@ -47,11 +47,13 @@ class Recruit extends React.Component {
     )
     render(){
         return (
-            <div className="RecruitOutSide scFlexColumn">       
-                <Divider style={{color:"#fff"}} orientation={"left"}>招募条件标签</Divider>         
-                {SelectContent.map(this.itemToSelect)}
-                <Divider style={{color:"#fff"}} orientation={"left"}>预期招募结果</Divider>
-                <Row gutter={16} style={{width:'90%',maxHeight:'200px',overflowY:'scroll'}}>
+            <div className="RecruitOutSide scFlexColumn"> 
+                <div style={{height:300,marginBottom:20}} className="scFlexColumn">
+                    <Divider style={{color:"#fff"}} orientation={"left"}>招募条件标签</Divider>         
+                    {SelectContent.map(this.itemToSelect)}
+                    <Divider style={{color:"#fff"}} orientation={"left"}>预期招募结果</Divider>
+                </div>      
+                <Row gutter={16} style={{width:'90%',maxHeight:'calc(100vh - 385px)',overflowY:'scroll'}}>
                     {Data.map(this.itemToImage)}
                 </Row>
             </div>
