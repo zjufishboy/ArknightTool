@@ -21,7 +21,7 @@ class QNavBar extends React.Component {
         this.setState({FunctBarVisible:false})
     }
     listToDiv =(item)=>(
-        <div className="ItemNav ccFlexRow">
+        <div className="ItemNav ccFlexRow" key={item.name}>
             <Link to={item.to} className="acFlexRow" onClick={this.onClose}><Icon type={item.icon} />{item.name}</Link>
         </div>
     )

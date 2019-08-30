@@ -22,7 +22,7 @@ function App() {
           <QNavBar title={"ArkNight"} functlist={functlist}/>
           <Route exact path="/" component={(routeProps)=><Intro {...routeProps} />}/>
           <Route exact path="/Recruit" component={(routeProps)=><Recruit {...routeProps} content={"测试"}/>} />
-          <Route exact path="/:funct" component={(routeProps)=><Sample {...routeProps} content={"测试"}/>} />
+          <Route exact path="/funct" component={(routeProps)=><Sample {...routeProps} content={"测试"}/>} />
         </Router>
     </div>
   );
